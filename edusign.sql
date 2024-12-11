@@ -54,9 +54,13 @@ INSERT INTO edusign (created_ad, users_id)
 SELECT datetime('2024-09-01 09:30:00'), id
 FROM users;
 
-SELECT * FROM edusign ORDER BY created_ad;
+SELECT * FROM edusign ORDER BY created_ad ASC;
 
 SELECT * FROM edusign 
 WHERE created_ad = '2024-05-30 09:30:00';
 
 SELECT * FROM edusign;
+
+--
+
+
